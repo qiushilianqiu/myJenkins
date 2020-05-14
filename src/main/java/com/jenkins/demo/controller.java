@@ -8,6 +8,6 @@ public class controller {
 
     @RequestMapping("/test")
     public String testJenKins() {
-        return "欢迎测试jenkins！！！,第七次次提交";
+        return "欢迎测试jenkins！！！,第十次次次提交";
     }
 }
