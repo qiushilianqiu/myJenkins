@@ -12,7 +12,7 @@ public class SchedulerTask {
     @Scheduled(cron = "*/3 * * * * ?")
     private void proces(){
         String content="springboot整合定时器实现定时邮件发送，这是第"+(count++)+"封邮件";
-
+        System.out.println(content);
         System.out.println("发送定时邮件成功");
     }
 }
