@@ -50,7 +50,7 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>1.0.0</version>
                 <configuration>
-                    <imageName>${docker.image.prefix}/${project.artifactId}:1.0.0</imageName>
+                    <imageName>${docker.image.prefix}/${project.artifactId}:1.0.2</imageName>
                     <dockerDirectory>src/main/docker</dockerDirectory>
                     <resources>
                         <resource>
